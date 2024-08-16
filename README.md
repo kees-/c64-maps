@@ -1,5 +1,7 @@
 Unsorted depot for the increasing number of tester maps on [my fork of Celeste64](https://github.com/kees-/Celeste64).
 
+`Content/` is intended to be merged into the content files of a Celeste64 installation.
+
 ## Tooling
 
 ### Blender template
@@ -10,4 +12,4 @@ Contains a blender application template for creating heightmaps in direct conjun
 
 ![](https://github.com/user-attachments/assets/91b8c3a3-3805-4c86-acdf-fdef77526803)
 
-Use io_export_qmap (*with all the right settings) and the map will be almost ready to play. The only other necessity is creating a `PlayerSpawn` entity with `name` set to `Start` somewhere on the mesh surface, which can be done in blender with an empty object or trenchbroom.
+Use io_export_qmap (\*with all the right settings) and the map will be almost ready to play. The only other necessity is creating a `PlayerSpawn` entity with `name` set to `Start` somewhere on the mesh surface, which can be done in blender with an empty object or trenchbroom.
